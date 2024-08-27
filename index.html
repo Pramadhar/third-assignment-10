@@ -69,9 +69,10 @@
                   </ul>
                 </div>
                 <div class="navbar-end flex gap-6">
-                   <i class="fa-solid fa-cart-shopping bg-slate-200 text-black p-2 rounded-full"></i>
-  
-                      <i class="fa-solid bg-slate-200 text-black p-2 rounded-full fa-magnifying-glass"></i>
+                  <div class="hidden lg:block">
+                    <i class="fa-solid fa-cart-shopping bg-slate-200 text-black p-2 rounded-full"></i>
+                    <i class="fa-solid bg-slate-200 text-black p-2 rounded-full fa-magnifying-glass"></i>
+                  </div>
                   <a class="btn bg-green-300 text-white">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full p-2 "></i></a>
                 </div>
               </div>
@@ -97,11 +98,11 @@
     </header>
     <main class="container mx-auto mt-12">
      <section class="bg-slate-100 p-24">
-        <div class="mb-2">
+        <div class="mb-2 hidden lg:block ">
             <img src="assets/Vector.png" alt="">
          </div>
          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div class="space-y-7 sm:text center">
+          <div class="space-y-7 text-center lg:text-left ">
             <button class="btn bg-white text-black rounded-xl mt-2">About Us</button>
         <h1 class="text-2xl font-bold">We design thoughtful, liveable spaces</h1>
        <p>The barn house captivates with its blend of rustic charm and <br>
@@ -193,17 +194,17 @@
        </div>
       </div>
       </section>
-        <section class="pt-24 bg-slate-100">
+        <section class="pt-24 ">
           <div class="space-y-5 text-center pb-24">
             <button class="btn bg-green-300 text-white p-4"><i class="fa-solid fa-arrow-right"></i>How we works</button>
             <h1 class="text-3xl font-bold">Our Latest Portfolio</h1>
             <p class="text-gray-400">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
-         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 pb-6 ">
+         <div class="grid grid-cols-4 gap-12 pb-6 ">
           <!-- first div -->
-        <div class="grid grid-cols-2 gap-6 border p-6 lg:col-span-2 items-center">
-          <div>
-            <img class="w-full" src="assets/img1.png" alt="">
+        <div class="flex gap-6 border p-6 col-span-3 items-center">
+          <div class="">
+            <img class="" src="assets/img1.png" alt="">
           </div>
           <div>
             <h1 class="text-2xl">Commercial</h1>
@@ -213,12 +214,9 @@
         </div>
         <!-- second div-->
       <div class="rounded-md">
-            <img class="border p-6 rounded-md" src="assets/img2.png" alt="">
-          </div>     
-  </div> 
-  <!-- newdiv -->
-   <div class="grid grid-cols-1 lg:grid-cols-4 gap-3  ">
-     <!-- third div -->
+            <img class="border p-6 rounded-md w-full " src="assets/img2.png" alt="">
+          </div>   
+             <!-- third div -->
   <div class="">
     <img  class="w-full border p-6 rounded-md" src="assets/img3.png" alt="">
    </div>
@@ -237,6 +235,28 @@
     <div class="">
       <img class="w-full border p-6 rounded-md" src="assets/img3.png" alt="">
      </div>
+  </div> 
+  <!-- newdiv -->
+   <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-3  ">
+     <!-- third div -->
+  <!-- <div class="">
+    <img  class="w-full border p-6 rounded-md" src="assets/img3.png" alt="">
+   </div> -->
+   <!-- fouthdiv -->
+    <!-- <div class="grid grid-cols-2 gap-6 border p-6 lg:col-span-2 items-center">
+      <div>
+ <img class="w-full" src="assets/img4.png" alt="">
+      </div>
+      <div>
+        <h1 class="2xl">Commercial</h1>
+        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+        <button class="pt-4"> view details <i class="fa-solid fa-arrow-right -rotate-45 bg-green-400 rounded-full p-2 "></i></button>
+      </div>
+    </div> -->
+    <!-- fifth -->
+    <!-- <div class="">
+      <img class="w-full border p-6 rounded-md" src="assets/img3.png" alt="">
+     </div> -->
   
    </div>
         </section>
